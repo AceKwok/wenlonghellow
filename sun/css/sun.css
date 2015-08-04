@@ -1,0 +1,107 @@
+
+
+.yun-header{
+    background: url("../images/header-bg.png") repeat;
+}
+
+.yun-navbar-header{
+    border-right: 1px solid #98acff;
+}
+
+.yun-navbar-brand{
+    background: url("../images/logo.png") no-repeat;
+    width: 185px;
+
+}
+
+.yun-navbar{
+    height: 1000px;
+}
+.yun-sidebar .li{
+    color:#000;
+
+}
+.yun-navbar span{
+    float: right;
+}
+.yun-sidebar .a{
+    color:#fff;
+}
+.yun-li{
+    padding-top: 40px;
+    padding-left: 40px;
+    border-bottom: 1px solid #E2E2E2;
+}
+.yun-row{
+    margin-top: 20px;
+}
+.yun-sidebar{
+
+    margin-left: -30px ;
+    margin-top: -20px;
+}
+.yun-collapse{
+    float: right;
+    color: #fff ;
+
+}
+.yun-page-header{
+    border-bottom: 2px solid #98acff;
+    width: 1070px;
+}
+
+.yun-panel{
+    height: 200px;
+
+
+}
+.yun-cloud-search{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.yun-panel-body{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top:20px ;
+}
+
+.yun-input{
+    margin-left: 250px;
+    margin-top:20px ;
+
+}
+.yun-a{
+    margin: 20px;
+}
+.media-body {
+    margin-top: 20px;
+}
+.yun-white{
+    background: url("../images/glyphicons-halflings-white.png")  ;
+    height: 34px;
+}
+b{
+    font-size:20px ;
+    color: #FF8803;
+}
+
+.media{
+    margin-left: 10px;
+    line-height: 20px;
+ }
+.yun-media{
+    position: absolute;
+
+}
+.yun-media2{
+    position: relative;
+    margin-left: 400px;
+
+}
+.w{
+    color: yellow;
+}
+

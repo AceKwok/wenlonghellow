@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+< lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!--以下两句匹配手机端-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/host_1.css"/>
+    <link rel="stylesheet" href="css/yunzhuji.css"/>
+    <link rel="stylesheet" href="css/yunzhuji.css"/>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="lib/shim/html5shiv.min.js"></script>
+    <script src="lib/shim/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+        <nav class="navbar  yun-header">
+            <div class="container-fluid">
+                <div class="navbar-header yun-navbar-header ">
+                    <a class="navbar-brand yun-navbar-brand" href="#"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse yun-collapse">
+                    <p>欢迎，<a href="#" class="w" >staralliance@vip.qq.com</a> <span class="caret"></span> |退出</p>
+                </div>
+            </div>
+        </nav>
+     <div class="container-fluid  ">
+        <div class="col-md-2 sidebar yun-sidebar">
+            <ul class="nav nav-sidebar navbar navbar-default yun-navbar" >
+                <li class="navbar navbar-inverse "><a href="1.html" class="a">控制台首页</a></li>
+                <li><a href="yunzhuji.html"  class="li">云主机 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></li>
+                <li><a href="#"  class="li">云硬盘  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">负载均衡  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">关系数据库  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">云内存  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">CDN  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">监控宝  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">DNS  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                <li><a href=""  class="li">云防护  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+
+                <li class="navbar navbar-inverse "><a href="" class="a">个人中心</a></li>
+                <img src="" alt=""/>
+                <li class="yun-li " >帮助中心</li>
+
+            <div class="input-group input-group-sm">
+
+             <input type="text" class="form-control" placeholder="输入您的问题" aria-describedby="sizing-addon3" >
+                <span class="glyphicon glyphicon-search" aria-hidden="true"> </span>
+
+            </div>
+                <br>
+                <div class="yun-suo">
+                    <img src="images/sell.png" alt="锁"/>
+                    <li>售后服务</li>
+                    <li class="yun-yi">周一至周五(9:00-18:00)</li>
+                </div>
+                <br>
+
+                <div class="yun-png">
+                    <img class="yun-tel" src="images/tel.png" alt=""/>
+                    <li> 18616882123</li>
+                    <br>
+                    <img src="images/email.png" alt=""/>
+                    <li>iaas_pcc@yovole.com</li>
+                </div>
+            </ul>
+        </div>
+
+
+
+        <div class="col-md-10">
+
+            <div class="row">
+                <div class="col-md-10">
+                        <div class="panel-body yun-panel-body">
+                            <span class="wenlong">云主机</span>
+                            <br>
+                            您还没有创建任何知己，点击下方按钮创建大的撒打算的撒的实打实大的撒打算多少是大大大是倒萨大大声的倒萨大大声大声道
+                            大声大声道王企鹅请问请问请问请问请问去问问企鹅王企鹅全文
+                        </div>
+                    <br><br>
+                    <div class="btn-group cloud-main-btn-create-host yun-input">
+                        <button class="btn btn-warning yun-white">
+                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        </button>
+                        <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">创建新主机</button>
+                    </div>
+
+                    <div class="btn-group" role="group" aria-label="true">
+                         <button type="button" class="btn btn-default">
+                         <span class="glyphicon glyphicon-play" aria-hidden="true">
+                         </span>开机</button>
+
+                         <button type="button" class="btn btn-default">
+                         <span class="glyphicon glyphicon-stop" aria-hidden="true">
+                         </span>关机</button>
+
+                        <button type="button" class="btn btn-default">
+                         <span class="glyphicon glyphicon-off" aria-hidden="true">
+                         </span>断电</button>
+
+                        <button type="button" class="btn btn-default">
+                         <span class="glyphicon glyphicon-repeat" aria-hidden="true">
+                         </span>重启</button>
+                    </div>
+
+                    <button type="button" class="btn btn-default">应急登陆（VNC）</button>
+                    <button type="button" class="btn yun-btn-back">
+                     <span class="glyphicon glyphicon-repeat yun-white-icon" aria-hidden="true">
+                    </span></button>
+
+
+                    <div class="row  yun-row">
+                        <div class="col-md-10">
+                            <table width="1500" height="400" >
+                                <tr bgcolor="E8E5E5" class="yun-tr ">
+                                    <br>
+                                    <th></th>
+                                    <th class="th">云服务名称</th>
+                                    <th class="th">内网IP</th>
+                                    <th class="th">外网IP</th>
+                                    <th class="th">状态</th>
+                                    <th class="th">到期时间</th>
+                                    <th class="th">云防护</th>
+                                </tr>
+                                <tr class="yun-tr">
+                                    <td><input type="checkbox"/></td>
+                                    <td class="td">阳光云方案游戏云</td>
+                                    <td class="td">180.153.222.254</td>
+                                    <td class="td">180.153.222.254</td>
+
+                                    <td class="td"><span class="ziti"></span>
+                                        <div class="progress " >
+                                             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="15" aria-valuemin="0"  style="width: 45%"  >
+                                            </div>
+                                         </div>
+                                    </td>
+
+                                    <td class="td">2014-12-20 09:25:42</td>
+                                    <td><img src="images/on.png" alt="on"/>已开启</td>
+                                </tr>
+
+                                <tr class="yun-tr">
+                                    <td><input type="checkbox"/></td>
+                                    <td class="td">阳光云方案游戏云</td>
+                                    <td class="td">180.153.222.254</td>
+                                    <td class="td">180.153.222.254</td>
+
+                                    <td class="td"> <span class="glyphicon glyphicon-play yun-02" aria-hidden="true"></span>正常运行</td>
+                                    <td class="td">2014-12-20 09:25:42</td>
+                                    <td><img src="images/on.png" alt="on"/>已开启</td>
+                                </tr>
+
+                                <tr class="yun-tr">
+                                    <td><input type="checkbox"/></td>
+                                    <td class="td">阳光云方案游戏云</td>
+                                    <td class="td">180.153.222.254</td>
+                                    <td class="td">180.153.222.254</td>
+
+                                    <td class="td"> <span class="glyphicon glyphicon-off yun-03" aria-hidden="true"></span>已关机</td>
+                                    <td class="td">2014-12-20 09:25:42</td>
+                                    <td><img src="images/off.png" alt="off"/>已关闭</td>
+                                </tr>
+
+                                <tr class="yun-tr">
+                                    <td><input type="checkbox"/></td>
+                                    <td class="td">阳光云方案游戏云</td>
+                                    <td class="td">180.153.222.254</td>
+                                    <td class="td">180.153.222.254</td>
+                                    <td class="td"> <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>重启</td>
+                                    <td class="td">2014-12-20 09:25:42</td>
+                                    <td><img src="images/on.png" alt="on"/>已开启</td>
+                                </tr>
+
+
+                            <tr class="yun-table-color"bgcolor="E8E5E5" class="yun-tr ">
+                                <td colspan="2"><p>条目总数：10<span id="Z-count"></span></p>选中条数：0<span id="count"></span></td>
+                                    <td colspan="5" class="text-right">每页显示数：
+
+
+                                            <button type="button">
+                                        <span class="glyphicon glyphicon-step-backward" aria-hidden="true">
+                                        </span></button>
+                                                        <button type="button">
+                                        <span class="glyphicon glyphicon-triangle-left" aria-hidden="true">
+                                        </span></button>
+                                                        <input type="text" class="input-width" value="1"/>
+                                                        <button type="button">
+                                        <span class="glyphicon glyphicon-triangle-right" aria-hidden="true">
+                                        </span></button>
+                                                        <button type="button">
+                                        <span class="glyphicon glyphicon-step-forward" aria-hidden="true">
+                                        </span></button>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+        <!-- 创建新主机 -->
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content  yun-modal-conten">
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">创建云主机</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="yun-modal-body">
+                            <div class="yun-modal-img"><img src="images/host-step1.jpg" alt=""/></div>
+
+                            <div class="cloud-bg yun-cloud-bg">
+
+                                <from>
+                                    <label class="yun-modal-body-label" >
+                                        主机名称：
+                                        <input type="text"/>
+                                    </label>
+                                    <br/>
+
+                                    <div class="yun-btn-group" data-toggle="buttons">
+                                        推荐配置：
+                                        <label class="btn btn-default ">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked> 经济型
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input type="radio" name="options" id="option2" autocomplete="off"> 企业型
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input type="radio" name="options" id="option3" autocomplete="off"> 高配型
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input type="radio" name="options" id="option4" autocomplete="off"> 自定义
+                                        </label>
+                                    </div>
+
+                                    <div class="yun-btn-group yun-btn-gr ">
+                                        <div class="yun-btn-label1">
+                                            <label>CPU</label>
+                                            <br/>
+                                            <label>内存：</label>
+                                            <br/>
+                                            <label>数据盘：</label>
+                                        </div>
+
+                                        <div class="yun-btn-label">
+                                            <label><input type="range" /></label>
+                                            <label><input  class="yun-btn-label-text" type="text" value="3"/>核</label>
+                                            <br/>
+
+                                            <label><input  type="range" /></label>
+                                            <label> <input  class="yun-btn-label-text" type="text" value="2"/>GB</label>
+                                            <br/>
+
+                                            <label><input type="range" /></label>
+                                            <label > <input class="yun-btn-label-text" type="text" value="1"/>GB</label>
+                                        </div>
+                                    </div>
+                                </from>
+                            </div>
+                            <div class="cloud-bg1">
+                                <div class="yun-btn-group-btn" data-toggle="buttons">
+                                    操作系统：
+                                    <div class="yun-btn-group-btn-btn">
+                                        <label class="btn btn-default ">
+                                            <input type="radio" name="options"  autocomplete="off" checked> Windows
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input type="radio" name="options"  autocomplete="off">Linux
+                                        </label>
+                                        <div class="yun-btn-group1">
+                                            <label>
+                                                <input type="radio" name="options"  autocomplete="off">Windows2008
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="yun-btn-group2">
+                                    购买数量：
+                                    <select name="cars">
+                                        <option value="volvo">1台</option>
+                                        <option value="saab">2台</option>
+                                        <option value="fiat">6台</option>
+                                        <option value="audi">10台</option>
+                                    </select>
+                                    <div class="yun-cars">
+                                        购买时长：
+                                        <select name="cars">
+                                            <option >按月</option>
+                                            <option>按年</option>
+                                            <option>按天</option>
+                                        </select>
+                                        <select  name="cars">
+                                            <option >1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-body2 ">
+                            <p class="modal-p yun-modal-p p2" style="padding-top: 10px">当前配置</p>
+                            <div class="modal-p">
+                                <p class="p2">数据中心 :<b> 华东双线</b></p>
+                                <p class="p1">CPU ：<b>4核</b></p>
+                                <p class="p1">内存 ：<b>2GB</b></p>
+                                <p class="p1">硬盘 ：<b> 250GB</b></p>
+                                <p class="p1">网络 ：<b> 无网络</b></p>
+                                <p class="p1">带宽 ：<b> 0 Mbps</b></p>
+                                <p class="p1">数量 ：<b> 1台</b></p>
+                                <p class="p1">时长 ：<b> 1月</b></p>
+                            </div>
+                            <div class="modal-p1 yun-modal-p p2">
+                                价格 ：<b class="b">551.60元</b>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="modal-footer yun-modal-footer">
+                        <div class="yun-btn-default">
+                            <button  type="button" class="btn btn-large btn-info  " data-dismiss="modal">取消</button>
+                            <button type="button" class="btn btn-primary">下一步</button>
+                        </div>
+
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+
+
+
+
+        <!-- jquery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="lib/jquery/jquery-1.11.3.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

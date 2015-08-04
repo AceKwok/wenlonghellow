@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!--以下两句匹配手机端-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/sun.css"/>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="lib/shim/html5shiv.min.js"></script>
+    <script src="lib/shim/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<nav class="navbar  yun-header">
+    <div class="container-fluid">
+        <div class="navbar-header yun-navbar-header ">
+            <a class="navbar-brand yun-navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class=" navbar-collapse collapse yun-collapse">
+
+          <p>欢迎，<a href="#" class="w" >staralliance@vip.qq.com</a> <span class="caret"></span> |退出</p>
+
+        </div>
+    </div>
+</nav>
+<div class="container-fluid  ">
+    <div class="col-md-2 sidebar yun-sidebar">
+        <ul class="nav nav-sidebar navbar navbar-default yun-navbar" >
+            <li class="navbar navbar-inverse "><a href="1.html" class="a">控制台首页</a></li>
+            <li><a href="yunzhuji.html"  class="li">云主机 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></li>
+            <li><a href="#"  class="li">云硬盘  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">负载均衡  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">关系数据库  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">云内存  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">CDN  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">监控宝  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">DNS  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+            <li><a href=""  class="li">云防护  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+
+            <li class="navbar navbar-inverse "><a href="" class="a">个人中心</a></li>
+            <img src="" alt=""/>
+            <li class="yun-li " >帮助中心</li>
+
+            <div class="input-group input-group-sm">
+
+                <input type="text" class="form-control" placeholder="输入您的问题" aria-describedby="sizing-addon3" >
+                <span class="glyphicon glyphicon-search" aria-hidden="true">|</span>
+            </div>
+            <br>
+            <div class="yun-suo">
+                <img src="images/sell.png" alt="锁"/>
+                <li>售后服务</li>
+                <li class="yun-yi">周一至周五(9:00-18:00)</li>
+            </div>
+            <br>
+
+            <div class="yun-png">
+                <img class="yun-tel" src="images/tel.png" alt=""/>
+                <li> 18616882123</li>
+                <br>
+                <img src="images/email.png" alt=""/>
+                <li>iaas_pcc@yovole.com</li>
+            </div>
+
+        </ul>
+    </div>
+    <div  class="col-md-10">
+        <h2 class="yun-page-header ">控制台首页</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default  yun-panel">
+                    <div class="panel-heading yun-">我的资源</div>
+                    <div class="panel-body yun-panel-body">
+                        您还没有创建任何知己，点击下方按钮创建
+                    </div>
+
+                    <div class="btn-group cloud-main-btn-create-host yun-input">
+                        <button class="btn btn-success yun-white">
+                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        </button>
+                        <button class="btn btn-success" >创建新主机</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default yun-panel">
+                    <div class="panel-heading">个人主页</div>
+                    <div class="pull-left text-center yun-a">
+                        <img class="media-object" src="images/main-cloud.gif">
+                        <a href="#">修改信息</a>
+                    </div>
+
+                    <div class="media-body">
+                        <div class="media">
+                            <a style="text-decoration: none;" class="ng-binding">xieshuxu@yovole.com</a><br>
+                            上次登录时间：<span class="ng-binding">2013-12-06  14:08:08</span><br>
+                            现金账余额：<span class="cloud-main-person-currency"><b>0.00</b></span> 元
+                        </div>
+                        <div class="media">
+                            <button class="btn btn-warning" >充值</button>
+                            <button class="btn">我的订单</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default cloud-main-product ng-scope yun-cloud-main-product">
+                    <div class="panel-heading">所有产品</div>
+                    <div class="panel-body">
+                        <div class="row-fluid">
+
+
+                            <div class="span4 media  yun-media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" src="images/icon-main1.jpg">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">计算和网络</h4>
+                                    <div class="inline">
+                                        <a href="#">云主机</a>
+                                        <a href="#">负载均衡</a>
+                                       <a href="#">云防护</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="span8 media yun-media2">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" src="images/icon-main2.jpg">
+                                </a>
+                                <div class="media-body ">
+                                    <h4 class="media-heading">存储和CDN</h4>
+                                    <div class="inline">
+                                        <a href="#">云硬盘</a>
+                                        <a href="#">云数据库</a>
+                                        <a href="#">云内存存储</a>
+                                        <a href="#">云分发CDN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+
+                            <div class="span4 media yun-media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" src="images/icon-main3.jpg">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">价格计算器</h4>
+                                    <div class="inline">
+                                        <a href="" target="_blank">云主机</a>
+                                        <a href="" target="_blank">云硬盘</a>
+                                        <a href="" target="_blank">负载均衡</a>
+                                        <a href="" target="_blank">云数据库</a>
+                                        <a href="" target="_blank">云分发CDN</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="span8 media yun-media2">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" src="images/icon-main4.png">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">第三方服务</h4>
+                                    <div class="inline">
+                                        <a href="#">监控宝</a>
+                                        <a href="#">DNS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- jquery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/jquery/jquery-1.11.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

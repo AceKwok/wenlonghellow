@@ -1,0 +1,97 @@
+
+.yun-header{
+    background: url("../images/header-bg.png") repeat;
+}
+
+.yun-navbar-header{
+    border-right: 1px solid #98acff;
+}
+
+.yun-navbar-brand{
+    background: url("../images/logo.png") no-repeat;
+    width: 185px;
+
+}
+
+.yun-navbar{
+    height: 1000px;
+}
+.yun-sidebar .li{
+    color:#000;
+
+}
+.yun-navbar span{
+    float: right;
+}
+.yun-sidebar .a{
+    color:#fff;
+}
+.yun-li{
+    padding-top: 40px;
+    padding-left: 40px;
+    border-bottom: 1px solid #E2E2E2;
+}
+.yun-row{
+    margin-top: 20px;
+}
+.yun-sidebar{
+
+    margin-left: -30px ;
+    margin-top: -20px;
+}
+.yun-collapse{
+    float: right;
+    color: #fff ;
+
+}
+.yun-page-header{
+    border-bottom: 2px solid #98acff;
+    width: 1070px;
+}
+
+.yun-panel{
+    height: 100px;
+
+}
+
+
+
+ .wenlong{
+    color: #0060BF;
+     font-size: 20px;
+
+}
+.yun-panel-body{
+    background-color: gainsboro;
+}
+
+.w{
+    color: yellow;
+}
+.yun-btn-back{
+    background-color: black;
+}
+
+.yun-white-icon{
+    color: white;
+}
+.yun-01{
+    color: green;
+}
+.yun-02{
+    color: green;
+}
+
+.yun-03{
+    color:red;
+}
+.btn .btn-warning{
+    margin-top: 10px;
+}
+.progress{
+    width: 40%;
+    height:10%;
+    margin-top: 15px;
+}
+
+
